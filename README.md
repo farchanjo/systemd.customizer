@@ -24,7 +24,7 @@ Including an example of how to use your role (for instance, with variables passe
 - name: Testing Systemd Customizer
   hosts: all
   roles:
-    - role: farchanjo.systemd.customizer
+    - role: farchanjo.systemd_customizer
       service_name: mongod
       service_files:
          - name: Limits
