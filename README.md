@@ -24,7 +24,7 @@ This a example how to use this role. You should have one service_files and at le
 - name: Testing Systemd Customizer
   hosts: all
   roles:
-    - role: farchanjo.systemd.customizer
+    - role: farchanjo.systemd_customizer
       service_name: mongod
       service_files:
          - name: Limits
