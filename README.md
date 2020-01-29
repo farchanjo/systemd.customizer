@@ -3,6 +3,12 @@ Systemd Customizer
 
 This role is to help to create a unit file to customize a service already installed
 
+Installing
+------------
+```
+ansible-galaxy install farchanjo.systemd_customizer
+```
+
 Role Variables
 --------------
 
