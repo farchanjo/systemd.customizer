@@ -1,0 +1,4 @@
+[Service]
+{% for tpl_param in template_params %}
+{{tpl_param.name}}={{tpl_param.value}}
+{% endfor %}

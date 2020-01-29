@@ -1,0 +1,17 @@
+dependencies: []
+
+galaxy_info:
+  author: Fabricio Archanjo Fonseca
+  company: Self-employed
+  description: Create a customized unit for systemd
+  license: MIT
+  min_ansible_version: 2.5
+  platforms:
+    - name: Ubuntu
+      versions:
+        - xenial
+        - bionic
+  galaxy_tags:
+    - systemd
+    - linux
+    - system
